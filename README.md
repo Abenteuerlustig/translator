@@ -82,3 +82,6 @@ Author: Abenteuerlustig(Hao Li)
 
 - [ ] Select the type of voice (English, American, male, female), and select different dialects if the target language is Chinese
 - [ ] Big exe file, except to make it smaller!
+
+#### Help
+https://blog.csdn.net/mlgbhz/article/details/123050146
