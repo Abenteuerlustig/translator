@@ -1,6 +1,6 @@
 ### 翻译小工具
 
-Abenteuerlustig (Hao Li)
+Author: Abenteuerlustig(Hao Li)
 
 
 
