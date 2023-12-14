@@ -1,60 +1,60 @@
-### 翻译小工具
+### Translator
 
 Author: Abenteuerlustig(Hao Li)
 
 
 
-#### 指导
+#### Guidance
 
-1. 打包程序，生成可执行的 EXE 文件
+1. Package program to generate executable EXE file
 
-   - 首先，确保您已经安装了 pyinstaller。如果尚未安装，请在命令行中运行以下命令进行安装：
+   - First, make sure you have pyinstaller installed. If it is not already installed, run the following command from the command line to install it:
 
      ```bash
      pip install pyinstaller
      ```
 
-   - 运行以下命令将 Python 脚本转换为可执行的 EXE 文件（ `your_script.py` 为翻译小工具的 Python 脚本文件名）：
+   - Run the following command to convert the Python script into an executable EXE file ( `your_script.py ` is the Python script file name for the translator) :
 
      ```bash
      pyinstaller --onefile translator.py
      ```
 
-   - 执行完成后，您将在生成的 `dist` 文件夹中找到生成的可执行文件
+   - When the execution is complete, you will find the generated executable file in the generated `dist` folder
 
-2. **注意：翻译需调用Google的API，需要科学上网以保证工具的稳定**
+2. **Note: The translation needs to call Google's API, which requires scientific Internet access to ensure the stability of the tool**
 
-3. **关于工具的更多疑问和建议，请自行体验并尝试该进翻译小工具，谢谢！**
+3. **For more questions and suggestions about the tool, please experience and try the translation gadget yourself, thank you! **.
 
 
 
-#### 界面
+#### Interface
 
 <img src="\assets\translator.jpg" style="zoom:50%;" />
 
 
 
-#### 功能
+#### Function
 
-1. 选择不同的目标语言对文本进行翻译
+1. Select different target languages to translate the text
 
-2. 自动检测源语言
+2. Automatically detect the source language
 
-3. 用户自定义界面（背景、字体大小）
+3. User-defined interface (background, font size)
 
-4. 设置系统语言
+4. Set the system language
 
-5. 朗读翻译结果
+5. Read the translation
 
    
 
-#### 不足
+#### Deficiency
 
-- [ ] 界面不够美观，按钮和各个文本的位置和形状需要优化，为整个界面背景设置不透明度使得工具更美观
+- [ ] The interface is not beautiful enough, the position and shape of the buttons and individual text need to be optimized, and the opacity of the entire interface background makes the tool more beautiful
 
-- [ ] 无法停止播放翻译结果
+- [ ] Unable to stop playing translation results
 
-  > 对应代码位于 `translator.py` **Line 219 - 235, Line 329 - 331**
+  > The corresponding codes are located in `translator.py` **Line 219-235, Line 329-331 **
   >
   > ```py
   > def stop_audio_playback():
@@ -80,5 +80,4 @@ Author: Abenteuerlustig(Hao Li)
   > # stop_audio_button.pack()
   > ```
 
-- [ ] 选择声音的类型（英音、美音、男声、女声），目标语言为中文时选择不同类型的方言
-
+- [ ] Select the type of voice (English, American, male, female), and select different dialects if the target language is Chinese
