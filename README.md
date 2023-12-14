@@ -81,6 +81,7 @@ Author: Abenteuerlustig(Hao Li)
   > ```
 
 - [ ] Select the type of voice (English, American, male, female), and select different dialects if the target language is Chinese
+- [ ] All numbers sounded in chinese
 - [ ] Big exe file, except to make it smaller!
 
 #### Help
