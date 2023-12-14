@@ -30,7 +30,7 @@ Abenteuerlustig (Hao Li)
 
 #### 界面
 
-<img src=".\assets\translator.jpg" style="zoom:50%;" />
+<img src="\assets\translator.jpg" style="zoom:50%;" />
 
 
 
